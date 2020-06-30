@@ -30,7 +30,7 @@ export default class Contact extends Component {
           </div>
           <div style={{ textAlign: 'center' }}>
             <p> Bellow you have my resume, take a look!</p>
-            <Link to='/files/resume.pdf' target='_blank' download>
+            <Link to='/files/FGuerreiro-Resume.pdf' target='_blank' download>
               <TiDocumentText size={80} />
             </Link>
           </div>

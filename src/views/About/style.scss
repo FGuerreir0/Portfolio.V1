@@ -57,17 +57,18 @@ $break-large: 1024px;
 }
 
 .hobbies {
-  margin-top: 30px;
+  margin-top: 40px;
   font-weight: 600;
   font-size: 20px;
 }
 .hobbies_about {
+  font-size: 14px;
   margin-top: 5px;
   margin-bottom: 100px;
-  height: 200px;
+  height: auto;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -87,6 +88,8 @@ $break-large: 1024px;
   .hobbies_about {
     flex-direction: row;
     justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .about {
