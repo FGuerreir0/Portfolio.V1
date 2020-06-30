@@ -1,11 +1,7 @@
 # FGuerreir0_Portfolio
 
-<img
-src=“images/profile.png”
-raw=true
-alt=“Subject Pronouns”
-style=“margin:0 auto”
-/>
+![picture](images/profile.png)
+
 A portfolio web app about my person.
 Here you can see some of my favorite projects and my contact!
 
