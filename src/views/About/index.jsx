@@ -75,23 +75,29 @@ class About extends Component {
         <div className='hobbies'>
           <span>Hobbies:</span>
           <div className='hobbies_about'>
-            <div>
+            <div className='hobbies_icon'>
               <MdPhotoCamera size={60} />
+              <p>Photography</p>
             </div>
-            <div>
+            <div className='hobbies_icon'>
               <IoMdAirplane size={60} />
+              <p>Travel</p>
             </div>
-            <div>
+            <div className='hobbies_icon'>
               <FaMotorcycle size={60} />
+              <p>Motorcycle</p>
             </div>
-            <div>
+            <div className='hobbies_icon'>
               <GiMusicalScore size={60} />
+              <p>Music</p>
             </div>
-            <div>
+            <div className='hobbies_icon'>
               <MdPets size={60} />
+              <p>Animals</p>
             </div>
-            <div>
+            <div className='hobbies_icon'>
               <IoLogoGameControllerB size={60} />
+              <p>Gaming</p>
             </div>
           </div>
         </div>

@@ -75,6 +75,14 @@ $break-large: 1024px;
   padding-top: 10px;
 }
 
+.hobbies_icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 7px;
+  font-size: 14px;
+}
+
 @media screen and (min-width: $break-large) {
   .hobbies_about {
     flex-direction: row;

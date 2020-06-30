@@ -13,11 +13,9 @@ export default class Contact extends Component {
           <div>
             <p className='first_paragraph'>
               {' '}
-              So if you're interested in working with a <strong>
-                Junior Full Stack Developer
-              </strong>{' '}
-              who is eager to learn and motivated to contribute for a project or a company, get in
-              touch.{' '}
+              So, if you're interested in working with a{' '}
+              <strong>Junior Full Stack Developer</strong> who is eager to learn and motivated to
+              contribute for a project or a company, get in touch.{' '}
             </p>
 
             <div className='email_style'>
