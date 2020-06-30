@@ -1,0 +1,23 @@
+$break-large: 1024px;
+
+.all_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+
+@media screen and (min-width: $break-large) {
+  .all_cards {
+    flex-direction: row;
+  }
+
+  .card_space {
+    margin: 0 50px;
+  }
+
+  .introduction_projects {
+    font-size: 20px;
+  }
+}

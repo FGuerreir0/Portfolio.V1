@@ -1,0 +1,78 @@
+$break-large: 1024px;
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.intro_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.principal_text {
+  margin-top: 2.5em;
+  font-size: 1.3em;
+}
+
+.secondary {
+  font-size: 1.2em;
+}
+.profile {
+  width: auto;
+  height: 130%;
+  opacity: 1 !important;
+}
+
+.circular_image:hover {
+  box-shadow: 0 0 30px rgba(168, 168, 168, 1);
+  background-image: url('/images/matrix.jpg');
+  border: 0.5px solid rgba($color: #ffffff, $alpha: 0.5);
+}
+
+.circular_image {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 0.5px solid rgba($color: #ffffff, $alpha: 0.3);
+}
+
+.social_bottom {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 5px;
+  border-top: 0.5px solid rgba($color: #ffffff, $alpha: 0.2);
+}
+
+@media screen and (min-width: $break-large) {
+  .container {
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+  }
+  .circular_image {
+    width: 400px;
+    height: 400px;
+  }
+
+  .principal_text {
+    margin-top: 0;
+    text-align: center;
+    font-size: 2.5em;
+  }
+
+  .secondary {
+    text-align: center;
+    font-size: 1.5em;
+  }
+}

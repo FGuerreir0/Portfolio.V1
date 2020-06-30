@@ -1,0 +1,32 @@
+$break-large: 1024px;
+
+.Links_Style {
+  color: white;
+  padding-top: 5px;
+  a {
+    color: white;
+    margin: 15px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+
+    @media screen and (min-width: $break-large) {
+      font-size: 25px;
+      margin: 40px;
+      text-decoration: none;
+    }
+  }
+}
+
+.link_active {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 2px 5px;
+  background-color: rgba($color: #ffffff, $alpha: 0.3) !important;
+  transition: 2s;
+}
+
+.link_no_active {
+  padding: 2px 5px;
+  transition: 1s;
+}

@@ -1,0 +1,41 @@
+$break-large: 1024px;
+
+a {
+  color: white;
+}
+
+.email_style {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 800;
+  transition: box-shadow 0.3s;
+  border: 0.5px solid rgba($color: #ffffff, $alpha: 0.3);
+  padding: 10px 30px;
+  margin-bottom: 90px;
+  border-radius: 5px;
+}
+
+.email_style:hover {
+  box-shadow: 0 0 11px rgba(168, 168, 168, 1);
+}
+
+.contact_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 72vh;
+}
+
+.first_paragraph {
+  margin-bottom: 60px;
+  text-align: justify;
+}
+
+@media screen and (min-width: $break-large) {
+  .contact_container {
+    font-size: 20px;
+  }
+}
