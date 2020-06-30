@@ -1,6 +1,6 @@
 # FGuerreir0_Portfolio
 
-![picture](images/profile.png)
+![picture](public/images/profile.png)
 
 A portfolio web app about my person.
 Here you can see some of my favorite projects and my contact!
