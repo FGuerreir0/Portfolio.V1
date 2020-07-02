@@ -13,20 +13,7 @@ $break-large: 1024px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.about_container::-webkit-scrollbar {
-  width: 12px;
-}
-
-.about_container::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(105, 10, 117, 0.3);
-  border-radius: 10px;
-}
-
-.about_container::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(105, 10, 117, 0.5);
+  text-align: center;
 }
 
 .skills {
@@ -82,6 +69,10 @@ $break-large: 1024px;
   flex-direction: column;
   margin: 0 7px;
   font-size: 14px;
+}
+
+.social_bottom {
+  bottom: 5%;
 }
 
 @media screen and (min-width: $break-large) {

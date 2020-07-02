@@ -27,11 +27,16 @@ a {
   flex-direction: column;
   justify-content: center;
   height: 72vh;
+  margin-bottom: 20px;
 }
 
 .first_paragraph {
   margin-bottom: 60px;
-  text-align: justify;
+  text-align: center;
+}
+
+.social_bottom {
+  bottom: 5%;
 }
 
 @media screen and (min-width: $break-large) {
