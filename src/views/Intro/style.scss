@@ -32,9 +32,12 @@ $break-large: 1024px;
   box-shadow: 0 0 30px rgba(168, 168, 168, 1);
   background-image: url('/images/matrix.jpg');
   border: 0.5px solid rgba($color: #ffffff, $alpha: 0.5);
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .circular_image {
+  transition: 0.3s;
   display: inline-block;
   position: relative;
   width: 300px;

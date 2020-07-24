@@ -26,6 +26,7 @@ $break-large: 1024px;
   overflow: hidden;
   img {
     height: 12em;
+    width: 99%;
     margin: 2px 2px;
   }
 }
@@ -61,10 +62,9 @@ $break-large: 1024px;
   .span_tooltip {
     text-align: center;
     position: absolute;
-    top: 20%;
     padding: 0.55rem 1rem;
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
     white-space: nowrap;
     color: #000;
     border-radius: 50px;

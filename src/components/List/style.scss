@@ -1,4 +1,5 @@
 $break-large: 1024px;
+$break-medium: 760px;
 
 .all_cards {
   display: flex;
@@ -11,10 +12,28 @@ $break-large: 1024px;
 @media screen and (min-width: $break-large) {
   .all_cards {
     flex-direction: row;
+    flex-wrap: wrap;
+    column-count: 3;
   }
 
   .card_space {
-    margin: 0 50px;
+    margin: 0 10px;
+  }
+
+  .introduction_projects {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: $break-medium) {
+  .all_cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-count: 2;
+  }
+
+  .card_space {
+    margin: 0 10px;
   }
 
   .introduction_projects {
