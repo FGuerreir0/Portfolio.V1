@@ -10,6 +10,17 @@ export default class List extends Component {
         <div className='all_cards'>
           <div className='card_space'>
             <ProjectCard
+              link='https://trackc19.netlify.app/'
+              photo='https://res.cloudinary.com/fguerreir0/image/upload/v1600790237/Personal/Captura_de_ecra%CC%83_2020-09-22_a%CC%80s_16.40.18_pgyqwg.png'
+              name='C-19 Tracker'
+              description='Tracker of Covid-19'
+              github='https://github.com/FGuerreir0/Covid19Tracker'
+              tech='React / Hooks / SCSS / chartjs / particlesjs'
+              api='disease.sh / ipapi / Axios / Modal'
+            />
+          </div>
+          <div className='card_space'>
+            <ProjectCard
               link='https://fguerreir0-netflixclone.netlify.app/'
               photo='https://res.cloudinary.com/fguerreir0/image/upload/v1595422834/Personal/netflix-clone.png'
               name='Netflix Clone'
